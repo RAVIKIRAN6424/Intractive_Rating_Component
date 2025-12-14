@@ -1,0 +1,1 @@
+# Intractive_Rating_Component
