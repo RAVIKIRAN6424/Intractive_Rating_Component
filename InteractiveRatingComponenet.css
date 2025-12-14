@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    font-family: ProductSans;
+    color: white;
+    height: 100vh;
+    background-color: black;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Main_Container{
+    padding: 40px;
+    width: 450px;
+    height: 500px;
+    background-color: rgb(7, 7, 65);
+    border-radius: 8%;
+    cursor: pointer;
+}
+#Main_Heading{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#icon{
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(79, 7, 97);
+}
+#Content{
+    color: skyblue;
+    font-size: 16px;
+    
+}
+#icon_star{
+    border: none;
+    outline: none;
+    color: goldenrod;
+    font-size: 20px;
+}
+.Rating_numbers{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(79, 7, 97);
+    float: left;
+    margin-right: 19px;    
+    font-size: 18px;
+    color: skyblue;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit_button{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    color: black;
+    border-radius:  6% / 50%;
+    margin-top: 50px;
+    letter-spacing: 2px;
+   cursor: pointer;
+}
+.Rating_numbers:hover{
+    background-color: gold;
+    color: black;
+    transform: scale(1.2);
+}
+#submit_button:hover{
+    border: 3px solid black;
+    background: white;
+    transform: scale(1.2);
+}
